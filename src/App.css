@@ -1,38 +1,342 @@
+/*
+*Author: Marcos Zorzi Rosa
+* 2022
+*
+*
+*Layout inspiration: https://brittanychiang.com/
+*
+*Color list (Adobe Wheel)
+*
+*background: #0A191F
+*text: #F5E662
+*links: #4EDE5D
+*extras:#DE8B4E | #FF59C7
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+  font-family: 'Comfortaa', 'Calibri', sans-serif;
+  background-color: #0A191F;
+  color: #F5E662;
+}
+
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr.solid {
+  border-right: 100vw solid #F5E662;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headshot{
+  justify-content: center;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 50px;
+  z-index: 1;
+  /* border: #4EDE5D solid 2px; */
+  padding: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.education-card-list,
+.experience-card-list,
+.experience.card,
+.accordion-body{
+  width: 100vw;
+  background-color: #0A191F;
+  color: #F5E662;
+  padding: 1%;
+}
+
+.accordion-header>button,
+.accordion-item{
+  background-color: #0A191F;
+  color: #F5E662;
+}
+
+.accordion-button:not(.collapsed), 
+.accordion-button:hover{
+  background-color: #F5E662;
+  color: #0A191F;
+  font-weight: bolder;
+  font-size: 60%;
+}
+
+.accordion-button::after{
+  background-image: none;
+  content: '...';
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  content: 'X';
+}
+
+.education-role-list,
+.experience-role-list{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  font-size: 70%;
+  line-height: 200%;
+}
+
+.App-header,
+.App-experience,
+.App-education,
+.App-projects {
+  min-height: 100vh;
+  min-width: 100vw;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
+
+.App-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.App-experience,
+.App-education{
+  display: flex;
+  flex-direction: column;
+}
+
+.div-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.div-contact>a,
+.div-contact>a>span{
+  text-decoration: none;
+  margin-top: px;
+}
+
+
+
+/*
+.App-projects{
+  display: flex;
+  flex-direction: column;
+}*/
+
+/*
+.App-projects>.card-group{
+  display: grid;
+  grid-template-columns: auto auto;
+}*/
 
 .App-link {
-  color: #61dafb;
+  color: #4EDE5D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+
+/*General Style - Projects2 page*/
+.proj2-li{
+  position: relative;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 100px;
+  list-style-type: none;
+}
+
+.proj2-title{
+  font-weight: bolder;
+}
+
+/*Mobile - Projects2 page*/
+@media (max-width: 499px){
+
+  .proj2-content{
+    padding: 30px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    grid-column: 1 / -1;
+    /* padding: 40px 40px 30px; */
+    /* z-index: 5; */
+    text-align: left;
+    position: absolute;
+    background-color: transparent;
+    z-index: 5;
   }
-  to {
-    transform: rotate(360deg);
+
+  .proj2-li:nth-of-type(2n+1) .proj2-content{
+    grid-column: 1 / -1;
+    padding: 25px 25px 20px;
+    text-align: left;
+    background-color: transparent;
+    z-index: 5;
+  }
+
+  .proj2-description{
+    padding: 20px 0px;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .proj2-description>p{
+    background-color: transparent;
+  }
+
+  .proj2-technology{
+    display: flex;
+    margin: 10px 0px;
+    list-style-type: none;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 0;
+    background-color: transparent;
+  }
+
+  .proj2-technology>li{
+   margin: 0px 10px 5px 0px;
+   padding-left: 0;
+   background-color: transparent;
+  }
+
+  .proj2-li:nth-of-type(2n+1) .proj2-technology{
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+
+  .proj2-li:nth-of-type(2n+1) .proj2-technology>li{
+    margin: 0px 10px 5px 0px;
+    background-color: transparent;
+  }
+  
+  .proj2-li:nth-of-type(2n+1) .proj2-link{
+    background-color: transparent;
+  }
+
+  .proj2-link{
+    text-align: left;
+    background-color: transparent;
+  }
+
+  .proj2-link>a>svg{
+    width: 40px;
+    height: 40px;
+  }
+
+  .proj2-image,
+  .proj2-li:nth-of-type(2n+1) .proj2-image{
+    position: relative;
+    grid-column: -1 / 1;
+    height: 100%;
+    opacity: 0.25;
+    z-index: 0;
+  }
+
+  .proj2-image > img{
+    object-fit: cover;
+    width: 100vw;
+    height: auto;
+    filter: grayscale(100%) contrast(1) brightness(50%);
+    z-index: 0;
+  }
+
+  .proj2-title{
+    position: static;
+    background-color: transparent;
+  }
+
+
+}
+
+/*Desktop - Projects2 page*/
+@media (min-width: 500px) {
+  .proj2-ul{
+    margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px;
+  }
+  
+  
+  .proj2-content{
+    position: relative;
+    grid-area: 1 / 1 / -1 / 7;
+    text-align: left;
+  }
+  
+  .proj2-li:nth-of-type(2n+1) .proj2-content{
+    grid-column: 7 / -1;
+    text-align: right;
+  }
+  
+  .proj2-li:nth-of-type(2n+1) .proj2-image{
+    grid-column: 1 / 8;
+  }
+  
+  .proj2-image{
+    grid-area: 1 / 6 / -1 / -1;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .proj2-image > img{
+    max-width: 700px;
+    max-height: 700px;
+    opacity: 75%;
+    border-radius: 2%;
+  }
+  
+  .proj2-description{
+    position: relative;
+    z-index: 5;
+    padding: 25px;
+    background-color: #14313D;
+  }
+  .proj2-description>p{
+    background-color: #14313D;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .proj2-link>a>svg{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .proj2-technology{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 25px 0px 10px;
+    padding: 0px;
+    list-style: none;
+    font-size: 80%;
+  }
+  
+  .proj2-technology>li{
+    margin: 0px 20px 5px 0px;
+    white-space: nowrap;
+  }
+  
+  .proj2-li:nth-of-type(2n+1) .proj2-technology{
+    justify-content: flex-end;
+  }
+  
+  .proj2-li:nth-of-type(2n+1) .proj2-technology>li{
+    margin: 0px 0px 5px 20px;
   }
 }
