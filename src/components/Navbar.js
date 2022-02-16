@@ -10,7 +10,7 @@ const Navigation =()=>{
     return(
         <Navbar collapseOnSelect expand="lg" bg="#0A191F" variant="dark" sticky="top">
             <Container style={{margin:0}}>
-                <Navbar.Brand> <img src="../favicon.ico" alt="icon" width={'40px'}></img></Navbar.Brand>
+                {/* <Navbar.Brand> <img src="../favicon.ico" alt="icon" width={'40px'}></img></Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
