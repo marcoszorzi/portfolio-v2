@@ -6,24 +6,38 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
 let experience = [
-    {
+  {
     "id": 1,
-    "title": "Employee Payroll Business Process Analyst",
-    "company":"VON Canada",
-    "time": "2020-Current",
+    "title": "IT Specialist",
+    "company":"Augmentt Technology Inc.",
+    "time": "2022-Current",
     "roles":[
-    "Complete and design reporting needs for operations and corporate services",
-    "Produce consistent reports on HR master data information to the Senior Management Team",
-    "Ensure daily execution and management of business improvements and/or project related tasks",
-    "Document “as–is” and develops “to-be” processes, identifying opportunities for business improvements",
-    "Create, review and deliver end user training documentation (user guide, process flow charts, training material) and training for accuracy.",
-    "Ensure the development and delivery of documentation and training on SAP standard reports",
-    "Assistance with business testing for configuration changes related to the employee profile", 
-    "Troubleshoos errors in data processing and pay results, encompassing Security, and determine source of error.",
-    "Oversee year end processing, reporting T4’s and T2200, sunshine list and assists the Senior Director in special projects throughout the year."]
+      "Telephone and email-based pre-sales and post-sales technical support for Augmentt's software",
+      "Investigation of issues reported by customers and communication with the internal product development team",
+      "Planning, prioritizing and organizing workload, effectively meeting deadlines and standards",
+      "Responding to customer requests in a timely manner while proactively working with the team to improve customer's experience",
+      "Development of documentation for new and existing processes",
+      "Researching, implementation and maintenance of task automation within internal systems",
+      "Development of reports and layout customizations on Salesforce"]
   },
+    {
+      "id": 2,
+      "title": "Employee Payroll Business Process Analyst",
+      "company":"VON Canada",
+      "time": "2020-2022",
+      "roles":[
+      "Complete and design reporting needs for operations and corporate services",
+      "Produce consistent reports on HR master data information to the Senior Management Team",
+      "Ensure daily execution and management of business improvements and/or project related tasks",
+      "Document “as–is” and develops “to-be” processes, identifying opportunities for business improvements",
+      "Create, review and deliver end user training documentation (user guide, process flow charts, training material) and training for accuracy.",
+      "Ensure the development and delivery of documentation and training on SAP standard reports",
+      "Assistance with business testing for configuration changes related to the employee profile", 
+      "Troubleshoos errors in data processing and pay results, encompassing Security, and determine source of error.",
+      "Oversee year end processing, reporting T4’s and T2200, sunshine list and assists the Senior Director in special projects throughout the year."]
+    },
  {
-    "id": 2,
+    "id": 3,
     "title": "Employee Services Representative",
     "company":"VON Canada",
     "time": "2019-2020",
@@ -36,7 +50,7 @@ let experience = [
     "Provide on demand: Employment Letter, Promotion Letter, Demotion Letter and Change of Assignment Letter"]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Systems Consultant",
     "company": "Senior Curitiba",
     "time": "2018-2019",
@@ -50,7 +64,7 @@ let experience = [
     "Prepare documentation and user manuals, including written instruction on procedures related"]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Systems Administrator",
     "company": "Boticario Group",
     "time": "2018-2018",
@@ -67,7 +81,7 @@ let experience = [
             "Follow-up on internal projects related to HR area with diverse systems platforms."]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Systems Consultant",
     "company": "Senior Curitiba",
     "time": "2014-2018",
@@ -82,7 +96,7 @@ let experience = [
             "Elaborate and perform training for clients"]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Systems Administrator",
     "company": "Lactec Institutes",
     "time": "2009-2014",
