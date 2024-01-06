@@ -4,6 +4,7 @@
 */
 import React from "react";
 
+
 let projects = [
     {
       id: 1,
@@ -11,7 +12,7 @@ let projects = [
       description: "Frontend fully responsive project, built with React and amazing styles and navigation planned on Figma.",
       platform: "Web",
       technologies: ["React", "Figma"],
-      screenshot: "./img/Gericht-Restaurant.png",
+      screenshot: "./img/Gericht-Restaurant.PNG",
       github_repo: "https://github.com/marcoszorzi/gericht-restaurant",
       link: "https://marcoszorzi.github.io/gericht-restaurant/"
     },
@@ -21,7 +22,7 @@ let projects = [
       description: "Frontend fully responsive project, built with React and captivating navigation, using Figma for planning and GPT-3 as inspiration.",
       platform: "Web",
       technologies: ["React", "Figma"],
-      screenshot: "./img/GPT-3.png",
+      screenshot: "../../public/img/GPT-3.PNG",
       github_repo: "https://github.com/marcoszorzi/gpt3_jsm",
       link: "https://marcoszorzi.github.io/gpt3_jsm/"
     },
