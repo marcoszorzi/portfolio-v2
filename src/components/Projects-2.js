@@ -1,50 +1,70 @@
 /*
 *Author: Marcos Zorzi Rosa
-* 2022
+* 2024
 */
 import React from "react";
 
 let projects = [
     {
-        id: 1,
-        name: "CBSA HELPER",
-        description: "Voice assistant application for Canada Border Services Agency(CBSA), build in NodeJS hosted on Google Firebase and deployed for Amazon Alexa® and Google Home®.",
-        platform: "Alexa, Google Home, Web",
-        technologies: ["Node.JS", "Firebase", "Alexa", "Dialogflow", "Twilio"],
-        screenshot: "./img/CBSA_Helper.png",
-        github_repo: "mailto:marcoszorzi@gmail.com?subject=Request code sharing for CBSA Helper Project.",
-        link: "https://bot.dialogflow.com/96a34494-a331-4f68-807a-43f956ea865e"
-      },
+      id: 1,
+      name: "GERÍCHT RESTAURANT",
+      description: "Frontend fully responsive project, built with React and amazing styles and navigation planned on Figma.",
+      platform: "Web",
+      technologies: ["React", "Figma"],
+      screenshot: "./img/Gericht-Restaurant.png",
+      github_repo: "https://github.com/marcoszorzi/gericht-restaurant",
+      link: "https://marcoszorzi.github.io/gericht-restaurant/"
+    },
     {
-        id: 2,
-        name: "Restaurant Finder",
-        description: "Restaurants suggestions using Yelp® API based on user's geolocation.",
-        platform: "iOS & Android",
-        technologies: ["React Native", "Expo", "Yelp Fusion API"],
-        screenshot: "./img/Restaurant_Finder.png",
-        github_repo: "mailto:marcoszorzi@gmail.com?subject=Request code sharing for Restaurant Finder Project.",
-        link: "https://expo.io/@zorz0004/9135Final"
-      },
-      {
-        id: 3,
-        name: "PIZZA SHOP",
-        description: "Full-stack website for Pizza Shop. User and staff management, inventory and checkout.",
-        platform: "Web",
-        technologies: ["Express", "MongoDB", "RESTful API"],
-        screenshot: "./img/web_pizzashop.png",
-        github_repo: "mailto:marcoszorzi@gmail.com?subject=Request code sharing for Pizza Shop Project.",
-        link: "https://zorz0004.github.io/pizzashop/"
-      },
-      {
-        id: 4,
-        name: "MyChat App",
-        description: "React instant messenger, hosted on Expo. Available for Android, iOS and Web.",
-        platform: "iOS, Android and Web",
-        technologies: ["React", "Firebase", "Expo"],
-        screenshot: "./img/My-Chat-App.png",
-        github_repo: "https://github.com/marcoszorzi/my-chat-app",
-        link: "https://expo.dev/@marcoszorzi/my-chat-app"
-      }
+      id: 2,
+      name: "GPT-3",
+      description: "Frontend fully responsive project, built with React and captivating navigation, using Figma for planning and GPT-3 as inspiration.",
+      platform: "Web",
+      technologies: ["React", "Figma"],
+      screenshot: "./img/GPT-3.png",
+      github_repo: "https://github.com/marcoszorzi/gpt3_jsm",
+      link: "https://marcoszorzi.github.io/gpt3_jsm/"
+    },
+    {
+      id: 3,
+      name: "CBSA HELPER",
+      description: "Voice assistant application for Canada Border Services Agency(CBSA), build in NodeJS hosted on Google Firebase and deployed for Amazon Alexa® and Google Home®.",
+      platform: "Alexa, Google Home, Web",
+      technologies: ["Node.JS", "Firebase", "Alexa", "Dialogflow", "Twilio"],
+      screenshot: "./img/CBSA_Helper.png",
+      github_repo: "mailto:marcoszorzi@gmail.com?subject=Request code sharing for CBSA Helper Project.",
+      link: "https://bot.dialogflow.com/96a34494-a331-4f68-807a-43f956ea865e"
+    },
+    {
+      id: 4,
+      name: "Restaurant Finder",
+      description: "Restaurants suggestions using Yelp® API based on user's geolocation.",
+      platform: "iOS & Android",
+      technologies: ["React Native", "Expo", "Yelp Fusion API"],
+      screenshot: "./img/Restaurant_Finder.png",
+      github_repo: "mailto:marcoszorzi@gmail.com?subject=Request code sharing for Restaurant Finder Project.",
+      link: "https://expo.io/@zorz0004/9135Final"
+    },
+    {
+      id: 5,
+      name: "PIZZA SHOP",
+      description: "Full-stack website for Pizza Shop. User and staff management, inventory and checkout.",
+      platform: "Web",
+      technologies: ["Express", "MongoDB", "RESTful API"],
+      screenshot: "./img/web_pizzashop.png",
+      github_repo: "mailto:marcoszorzi@gmail.com?subject=Request code sharing for Pizza Shop Project.",
+      link: "https://zorz0004.github.io/pizzashop/"
+    },
+    {
+      id: 6,
+      name: "MyChat App",
+      description: "React instant messenger, hosted on Expo. Available for Android, iOS and Web.",
+      platform: "iOS, Android and Web",
+      technologies: ["React", "Firebase", "Expo"],
+      screenshot: "./img/My-Chat-App.png",
+      github_repo: "https://github.com/marcoszorzi/my-chat-app",
+      link: "https://expo.dev/@marcoszorzi/my-chat-app"
+    }
 ];
 
 

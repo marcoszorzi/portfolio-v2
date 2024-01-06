@@ -1,6 +1,6 @@
 /*
 *Author: Marcos Zorzi Rosa
-* 2022
+* 2024
 */
 import React from "react";
 import {Navbar, Container, Nav} from 'react-bootstrap'
@@ -15,9 +15,9 @@ const Navigation =()=>{
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#education">Education</Nav.Link>
-                        <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#experience">Experience</Nav.Link>
+                        <Nav.Link href="#education">Education</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                         
                         {/* <NavDropdown title="More" id="collasible-nav-dropdown">

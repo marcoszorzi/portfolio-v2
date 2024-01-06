@@ -1,6 +1,6 @@
 /*
 *Author: Marcos Zorzi Rosa
-* 2022
+* 2024
 */
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
@@ -12,56 +12,42 @@ let experience = [
     "company":"Augmentt Technology Inc.",
     "time": "2022-Current",
     "roles":[
-      "Telephone and email-based pre-sales and post-sales technical support for Augmentt's software",
-      "Investigation of issues reported by customers and communication with the internal product development team",
-      "Planning, prioritizing and organizing workload, effectively meeting deadlines and standards",
-      "Responding to customer requests in a timely manner while proactively working with the team to improve customer's experience",
-      "Development of documentation for new and existing processes",
-      "Researching, implementation and maintenance of task automation within internal systems",
-      "Development of reports and layout customizations on Salesforce"]
+      "Customer Issue Investigation and Reporting: Skilled in resolving customer issues through collaboration with development, providing clear reports for efficient solutions.",
+      "Investigation of issues reported by customers and communication with the internalWorkload Management and Deadline Adherence: Proficient in strategic planning, prioritization, and meeting deadlines with meticulous attention to detail, ensuring consistent high-quality outcomes. product development team",
+      "Customer-Centric Communication and Process Improvement: Exhibits strong customer responsiveness, collaborates to boost overall experience, and drives proactive process enhancements for improved outcomes."]
   },
     {
       "id": 2,
-      "title": "Employee Payroll Business Process Analyst",
+      "title": "Payroll Business Process Analyst",
       "company":"VON Canada",
       "time": "2020-2022",
       "roles":[
-      "Complete and design reporting needs for operations and corporate services",
-      "Produce consistent reports on HR master data information to the Senior Management Team",
-      "Ensure daily execution and management of business improvements and/or project related tasks",
-      "Document “as–is” and develops “to-be” processes, identifying opportunities for business improvements",
-      "Create, review and deliver end user training documentation (user guide, process flow charts, training material) and training for accuracy.",
-      "Ensure the development and delivery of documentation and training on SAP standard reports",
-      "Assistance with business testing for configuration changes related to the employee profile", 
-      "Troubleshoos errors in data processing and pay results, encompassing Security, and determine source of error.",
-      "Oversee year end processing, reporting T4’s and T2200, sunshine list and assists the Senior Director in special projects throughout the year."]
+        "Strong attention to detail: Generating precise HR master data reports and spotting process improvement chances demands meticulous attention to detail.",
+        "Effective communication and collaboration: Providing support to colleagues and clients, delivering training materials, and resolving data errors demands adept communication and collaborative skills.",
+        "Project management: Balancing tasks, driving daily enhancements, and managing year-end processing and special projects showcase adept project management."]
     },
  {
     "id": 3,
-    "title": "Employee Services Representative",
+    "title": "Payroll Representative",
     "company":"VON Canada",
     "time": "2019-2020",
-    "roles":["Respond to queries from staff and external vendors based on priority",
-    "Create, edit and format documents and reports",
-    "Support Managers as needed",
-    "Data Entry on SAP, HR module",
-    "Setup of New Employees and paperwork analysis",
-    "Process: Sick Leaves, Returns to Work, Maternity Leaves, Terminations, Pay Changes, Promotions and Transfers",
-    "Provide on demand: Employment Letter, Promotion Letter, Demotion Letter and Change of Assignment Letter"]
+    "roles":[
+      "Data Integrity Management: Skillfully preserve VON employee data accuracy and integrity from onboarding to departure, ensuring lifecycle consistency.",
+      "HRIS Administration and Reporting: Efficiently manage HRIS system, providing accurate data to HR and Payroll. Skilled at producing comprehensive reports (hours, leave, payroll reconciliation, seniority).",
+      "Workflow Prioritization and Employee Support: Expertly prioritize tasks for timely payroll during blackout periods. Offer exceptional employee support by promptly addressing inquiries, investigating concerns, and providing resolutions."]
   },
   {
     "id": 4,
-    "title": "Systems Consultant",
+    "title": "Systems Consultant - Contractor",
     "company": "Senior Curitiba",
     "time": "2018-2019",
-    "roles":["Provide remote support for installation, maintenance and use of Senior Systems",
-    "Develop and design features and reports as requested by clients",
-    "Programming in LSP(Proprietary language, C based) and Java. Glassfish server versions 2, 3 and 4.",
-    "Perform backup and restore routines in Oracle and SQL databases.",
-    "Perform systems update and modules installations in server side.",
-    "Management of projects through all phases from planning through to maintenance and support",
-    "Perform testing, configuration changes, enhancements and new functionality",
-    "Prepare documentation and user manuals, including written instruction on procedures related"]
+    "roles":[
+      "Programming in LSP(Proprietary language, C based) and Java. Glassfish server versions 2, 3 and 4.",
+      "Perform backup and restore routines in Oracle and SQL databases.",
+      "Perform systems update and modules installations in server side.",
+      "Management of projects through all phases from planning through to maintenance and support",
+      "Perform testing, configuration changes, enhancements and new functionality",
+      "Prepare documentation and user manuals, including written instruction on procedures related"]
   },
   {
     "id": 5,

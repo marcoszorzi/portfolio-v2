@@ -1,6 +1,6 @@
 /*
 *Author: Marcos Zorzi Rosa
-* 2022
+* 2024
 */
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,13 +23,13 @@ function App() {
       </header>
      
 
-      <Education/>
-
+      <Projects2/>
+      
       <Experience/>
       
       {/* <Projects/> */}
 
-      <Projects2/>
+      <Education/>
       
       <Contact/>
 
