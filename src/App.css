@@ -242,7 +242,7 @@ hr.solid {
     grid-column: -1 / 1;
     height: 100%;
     opacity: 0.25;
-    z-index: -1;
+    z-index: 0;
   }
 
   .proj2-image > img{
@@ -250,13 +250,12 @@ hr.solid {
     width: 100vw;
     height: auto;
     filter: grayscale(100%) contrast(1) brightness(50%);
-    z-index: -1;
+    z-index: 0;
   }
 
   .proj2-title{
     position: static;
     background-color: transparent;
-    z-index: 1;
   }
 
 
