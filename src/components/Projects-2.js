@@ -22,7 +22,7 @@ let projects = [
       description: "Frontend fully responsive project, built with React and captivating navigation, using Figma for planning and GPT-3 as inspiration.",
       platform: "Web",
       technologies: ["React", "Figma"],
-      screenshot: "../../public/img/GPT-3.PNG",
+      screenshot: "./img/GPT-3.PNG",
       github_repo: "https://github.com/marcoszorzi/gpt3_jsm",
       link: "https://marcoszorzi.github.io/gpt3_jsm/"
     },
