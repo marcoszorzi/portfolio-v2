@@ -8,6 +8,16 @@ import React from "react";
 let projects = [
     {
       id: 1,
+      name: "HooBank",
+      description: "Frontend fully responsive project, built in React with Tailwind for styles from Figma.",
+      platform: "Web",
+      technologies: ["React", "Tailwind", "Figma"],
+      screenshot: "./img/HooBank.PNG",
+      github_repo: "https://github.com/marcoszorzi/bank_modern_app",
+      link: "https://marcoszorzi.github.io/bank_modern_app/"
+    },
+    {
+      id: 2,
       name: "GERÍCHT RESTAURANT",
       description: "Frontend fully responsive project, built with React and amazing styles and navigation planned on Figma.",
       platform: "Web",
@@ -17,7 +27,7 @@ let projects = [
       link: "https://marcoszorzi.github.io/gericht-restaurant/"
     },
     {
-      id: 2,
+      id: 3,
       name: "GPT-3",
       description: "Frontend fully responsive project, built with React and captivating navigation, using Figma for planning and GPT-3 as inspiration.",
       platform: "Web",
@@ -27,7 +37,7 @@ let projects = [
       link: "https://marcoszorzi.github.io/gpt3_jsm/"
     },
     {
-      id: 3,
+      id: 4,
       name: "CBSA HELPER",
       description: "Voice assistant application for Canada Border Services Agency(CBSA), build in NodeJS hosted on Google Firebase and deployed for Amazon Alexa® and Google Home®.",
       platform: "Alexa, Google Home, Web",
@@ -37,7 +47,7 @@ let projects = [
       link: "https://bot.dialogflow.com/96a34494-a331-4f68-807a-43f956ea865e"
     },
     {
-      id: 4,
+      id: 5,
       name: "Restaurant Finder",
       description: "Restaurants suggestions using Yelp® API based on user's geolocation.",
       platform: "iOS & Android",
@@ -47,7 +57,7 @@ let projects = [
       link: "https://expo.io/@zorz0004/9135Final"
     },
     {
-      id: 5,
+      id: 6,
       name: "PIZZA SHOP",
       description: "Full-stack website for Pizza Shop. User and staff management, inventory and checkout.",
       platform: "Web",
@@ -57,7 +67,7 @@ let projects = [
       link: "https://zorz0004.github.io/pizzashop/"
     },
     {
-      id: 6,
+      id: 7,
       name: "MyChat App",
       description: "React instant messenger, hosted on Expo. Available for Android, iOS and Web.",
       platform: "iOS, Android and Web",
